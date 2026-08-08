@@ -1,0 +1,910 @@
+local_alias,item_name,rate
+1/2 cpvc pipe,"½"" CPVC Pipe SDR-11(10FT) Astral",353.0
+3/4 cpvc pipe,"¾""  CPVC Pipe SDR-11(10FT) Astral",473.0
+1 cpvc pipe,"1""  CPVC Pipe SDR-11(10FT) Astral",731.0
+1-1/4 cpvc pipe,"1¼""  CPVC Pipe SDR-11(10FT) Astral",1251.0
+1-1/2 cpvc pipe,"1½""  CPVC Pipe SDR-11(10FT) Astral",1717.0
+2 cpvc pipe,"2""  CPVC Pipe SDR-11(10FT) Astral",2980.0
+1/2 cpvc pipe 13.5,"½"" CPVC Pipe SDR-13.5(10FT) Astral",309.0
+3/4 cpvc pipe 13.5,"¾"" CPVC Pipe SDR-13.5(10FT) Astral",445.0
+1 cpvc pipe 13.5,"1"" CPVC Pipe SDR-13.5(10FT) Astral",649.0
+1-1/4 cpvc pipe 13.5,1¼  CPVC Pipe SDR-13.5(10FT) Astral,1068.0
+1-1/2 cpvc pipe 13.5,"1½"" CPVC Pipe SDR-13.5(10FT) Astral",1478.0
+2 cpvc pipe 13.5,"2"" CPVC Pipe SDR-13.5(10FT) Astral",2508.0
+1/2 coupling,"½"" CPVC coupler soc ",21.0
+3/4 coupling,"¾"" CPVC coupler soc ",25.0
+1 coupling,"1"" CPVC coupler soc ",39.0
+1-1/4 coupling,1¼  CPVC coupler soc ,80.0
+1-1/2 coupling,"1½"" CPVC coupler soc ",146.0
+2 coupling,"2"" CPVC coupler soc ",301.0
+3/4x1/2 elbow,"¾""x ½"" CPVC Reducer Elbow 90°",42.0
+1x1/2 elbow,"1""x ½""  CPVC Reducer Elbow 90°",80.0
+1x3/4 elbow,"1""x ¾""  CPVC Reducer Elbow 90°",109.0
+1-1/4x1/2 elbow,"1¼ X1/2""  CPVC Reducer Elbow 90°",116.0
+1-1/4x3/4 elbow,"1¼ X3/4""  CPVC Reducer Elbow 90°",124.0
+1-1/4x1 elbow,"1¼   x 1""  CPVC Reducer Elbow 90°",166.0
+2x1 elbow,"2"" x 1""  CPVC Reducer Elbow 90°",524.0
+3/4x1/2 brass clamp,"¾""x ½"" CPVC Elbow with Clamp Brass",138.0
+3/4x1/2 reducer,"3/4 x 1/2"" CPVC Reducer Coupler-soc",35.0
+1x1/2 reducer,"1 x 1/2"" CPVC Reducer Coupler-soc",53.0
+1x3/4 reducer,"1 x 3/4"" CPVC Reducer Coupler-soc",56.0
+1-1/4x1/2 reducer,"1¼ x 1/2"" CPVC Reducer Coupler-soc",108.0
+1-1/4x3/4 reducer,"1¼ x 3/4"" CPVC Reducer Coupler-soc",111.0
+1-1/4x1 reducer,"1¼ x 1"" CPVC Reducer Coupler-soc",114.0
+1-1/2x1/2 reducer,"1½ x 1/2"" CPVC Reducer Coupler-soc",160.0
+1-1/2x3/4 reducer,"1½ x 3/4"" CPVC Reducer Coupler-soc",158.0
+1-1/2x1 reducer,"1½ x 1"" CPVC Reducer Coupler-soc",170.0
+1-1/2x1-1/4 reducer,"1½ x 1¼ "" CPVC Reducer Coupler-soc",166.0
+2x1/2 reducer,"2 x 1/2"" CPVC Reducer Coupler-soc",330.0
+2x3/4 reducer,"2 x 3/4"" CPVC Reducer Coupler-soc",338.0
+2x1 reducer,"2 x 1"" CPVC Reducer Coupler-soc",330.0
+2x1-1/4 reducer,2 x 1¼  CPVC Reducer Coupler-soc,345.0
+2x1-1/2 reducer,"2 x 1½"" CPVC Reducer Coupler-soc",408.0
+1/2 endcap,"½"" CPVC End Cap-soc",17.0
+3/4 endcap,"¾"" CPVC End Cap-soc",23.0
+1 endcap,"1"" CPVC End Cap-soc",35.0
+1-1/4 endcap,1¼  CPVC End Cap-soc,71.0
+1-1/2 endcap,"1½"" CPVC End Cap-soc",104.0
+2 endcap,"2"" CPVC End Cap-soc",219.0
+1/2 bend,"½"" CPVC Elbow 45°",29.0
+3/4 bend,"¾"" CPVC Elbow 45°",41.0
+1 bend,"1"" CPVC Elbow 45°",73.0
+1-1/4 bend,1¼  CPVC Elbow 45°,153.0
+1-1/2 bend,"1½"" CPVC Elbow 45°",243.0
+2 bend,"2"" CPVC Elbow 45°",481.0
+,"¾"" x ¾"" CPVC Transition Coupler",63.0
+,"1""x 1"" CPVC Transition Coupler",95.0
+1/2x1/2 brass elbow,½ X ½ CPVC Elbow 90° Brass FPTxSoc,107.0
+3/4x1/2 brass elbow,¾ X ½ CPVC Elbow 90° Brass FPTxSoc,117.0
+3/4x3/4 brass elbow,¾ X ¾ CPVC Elbow 90° Brass FPTxSoc,178.0
+1x1/2 brass elbow,1 X ½ CPVC Elbow 90° Brass FPTxSoc,185.0
+1x3/4 brass elbow,1 X ¾ CPVC Elbow 90° Brass FPTxSoc,301.0
+1x1 brass elbow,1 X 1 CPVC Elbow 90° Brass FPTxSoc,564.0
+1-1/4x1/2 brass elbow,1¼ X ½  CPVC Elbow 90° Brass FPTxSoc,347.0
+1-1/4x3/4 brass elbow,1¼ X ¾ CPVC Elbow 90° Brass FPTxSoc,411.0
+1-1/4x1-1/4 brass elbow,1¼ X 1¼ CPVC Elbow 90° Brass FPTxSoc,738.0
+1/2 tee,"½"" CPVC TEE soc",35.0
+3/4 tee,"¾"" CPVC TEE soc",46.0
+1 tee,"1"" CPVC TEE soc",70.0
+1-1/4 tee,1¼  CPVC TEE soc,158.0
+1-1/2 tee,"1½"" CPVC TEE soc",286.0
+2 tee,"2"" CPVC TEE soc",598.0
+,2½ x 1½ CPVC Transition Reducer Coupler-Soc,580.0
+,2½ x 2 CPVC Transition Reducer Coupler-Soc,623.0
+,3 x 1½ CPVC Transition Reducer Coupler-Soc,795.0
+,3 x 2 CPVC Transition Reducer Coupler-Soc,838.0
+,4 x 1½ CPVC Transition Reducer Coupler-Soc,1288.0
+,4 x 2 CPVC Transition Reducer Coupler-Soc,1313.0
+1/2 elbow,"½"" CPVC Elbow 90°",26.0
+3/4 elbow,"¾"" CPVC Elbow 90°",29.0
+1 elbow,"1"" CPVC Elbow 90°",55.0
+1-1/4 elbow,1¼  CPVC Elbow 90°,124.0
+1-1/2 elbow,"1½"" CPVC Elbow 90°",239.0
+2 elbow,"2"" CPVC Elbow 90°",474.0
+2-1/2 tee,2½ x 1 CPVC Reducer TEE (IPSXCTS)soc,591.0
+2-1/2x1-1/2 tee,2½ x 1½ CPVC Reducer TEE (IPSXCTS)soc,1319.0
+2-1/2x2 tee,2½ x 2 CPVC Reducer TEE (IPSXCTS)soc,1374.0
+3x1 tee,3 x 1 CPVC Reducer TEE (IPSXCTS)soc,2696.0
+3x1-1/2 tee,3 x 1½ CPVC Reducer TEE (IPSXCTS)soc,2037.0
+3x2 tee,3 x 2 CPVC Reducer TEE (IPSXCTS)soc,1957.0
+4x1-1/2 tee,4 x 1½ CPVC Reducer TEE (IPSXCTS)soc,3390.0
+4x2 tee,4 x 2 CPVC Reducer TEE (IPSXCTS)soc,3439.0
+6x2 tee,6 x 2 CPVC Reducer TEE (IPSXCTS)soc,8255.0
+,½ x ½ x ¾ CPVC Reducer TEE,73.0
+,¾ x ½ x ¾ CPVC Reducer TEE,75.0
+,¾ x ½ x ½ CPVC Reducer TEE,75.0
+3/4x1/2 tee,¾ x ¾ x ½ CPVC Reducer TEE,77.0
+1x1/2 tee,1 x 1 x ½ CPVC Reducer TEE,117.0
+1x3/4 tee,1 x 1 x ¾ CPVC Reducer TEE,128.0
+1-1/4x1/2 tee,1¼ x 1¼ x ½ CPVC Reducer TEE,213.0
+1-1/4x3/4 tee,1¼ x 1¼ x ¾ CPVC Reducer TEE,245.0
+1-1/4x1 tee,1¼ x 1¼ x 1 CPVC Reducer TEE,227.0
+1-1/2x1/2 tee,1½ x 1½ x ½ CPVC Reducer TEE,351.0
+1-1/2x3/4 tee,1½ x 1½ x ¾ CPVC Reducer TEE,347.0
+1-1/2x1 tee,1½ x 1½ x 1 CPVC Reducer TEE,328.0
+1-1/2x1-1/4 tee,1½ x 1½ x 1¼ CPVC Reducer TEE,326.0
+2x1/2 tee,2 x 2 x ½ CPVC Reducer TEE,622.0
+2x3/4 tee,2 x 2 x ¾ CPVC Reducer TEE,671.0
+2x1 tee,2 x 2 x 1 CPVC Reducer TEE,661.0
+2x1-1/4 tee,2 x 2 x 1¼ CPVC Reducer TEE,671.0
+2x1-1/2 tee,2 x 2 x 1½ CPVC Reducer TEE,671.0
+1/2 brass tee,½ x ½ x ½ CPVC Brass FPT-soc TEE,129.0
+3/4x1/2 brass tee,¾ x ¾ x ½ CPVC Brass FPT-soc TEE,131.0
+3/4 brass tee,¾ x ¾ x ¾ CPVC Brass FPT-soc TEE,208.0
+1x1/2 brass tee,1 x 1 x ½ CPVC Brass FPT-soc TEE,218.0
+1x3/4 brass tee,1 x 1 x ¾ CPVC Brass FPT-soc TEE,321.0
+1 brass tee,1 x 1 x 1 CPVC Brass FPT-soc TEE,376.0
+1-1/4 brass tee,1¼ x 1¼ x 1¼ CPVC Brass FPT-soc TEE,455.0
+1-1/4x1/2 brass tee,1¼ x 1¼ x ½ CPVC Brass FPT-soc TEE,380.0
+3/4x1/2 mbt,¾ x ¾ x ½ CPVC Male Brass TEE (THDXsoc),228.0
+1x1/2 mbt,1 x 1 x ½ CPVC Male Brass TEE (THDXsoc),251.0
+1/2 4way tee,½ CPVC Cross-soc,47.0
+3/4 4way tee,¾ CPVC Cross-soc,99.0
+1 4way tee,1 CPVC Cross-soc,166.0
+1-1/4 4way tee,1¼ CPVC Cross-soc,217.0
+1-1/2 4way tee,1½ CPVC Cross-soc,267.0
+2 4way tee,2 CPVC Cross-soc,543.0
+1/2 mta,½ CPVC Male Adaptor (THDXsoc),25.0
+3/4 mta,¾ CPVC Male Adaptor (THDXsoc),35.0
+1 mta,1 CPVC Male Adaptor (THDXsoc),52.0
+1-1/4 mta,1¼ CPVC Male Adaptor (THDXsoc),91.0
+1-1/2 mta,1½ CPVC Male Adaptor (THDXsoc),129.0
+2 mta,2 CPVC Male Adaptor (THDXsoc),252.0
+3/4x1/2 mta,¾ x ½ CPVC Reducer Male Adaptor (THDXsoc),48.0
+1x3/4 mta,1 x ¾ CPVC Reducer Male Adaptor (THDXsoc),57.0
+1/2 brass mta,½ CPVC Male Adaptor Brass (THDXsoc),255.0
+3/4 brass mta,¾ CPVC Male Adaptor Brass (THDXsoc),309.0
+1 brass mta,1 CPVC Male Adaptor Brass (THDXsoc),550.0
+1-1/4 brass mta,1¼ CPVC Male Adaptor Brass (THDXsoc),1144.0
+1-1/2 brass mta,1½ CPVC Male Adaptor Brass (THDXsoc),1483.0
+2 brass mta,2 CPVC Male Adaptor Brass (THDXsoc),2635.0
+3/4x1/2 brass mta,¾ x ½ CPVC Reducer Male Adaptor Brass (THDXsoc),234.0
+1x1/2 brass mta,1 x ½ CPVC Reducer Male Adaptor Brass (THDXsoc),350.0
+1x3/4 brass mta,1 x ¾  CPVC Reducer Male Adaptor Brass (THDXsoc),350.0
+1/2 fta,½ CPVC Female Adaptor (THDXsoc),31.0
+3/4 fta,¾ CPVC Female Adaptor (THDXsoc),45.0
+1 fta,1 CPVC Female Adaptor (THDXsoc),67.0
+1-1/4 fta,1¼ CPVC Female Adaptor (THDXsoc),117.0
+1-1/2 fta,1½ CPVC Female Adaptor (THDXsoc),227.0
+2 fta,2 CPVC Female Adaptor (THDXsoc),359.0
+3/4x1/2 fta,¾ x ½ CPVC Reducer Female Adaptor (THDXsoc),57.0
+1/2 brass fta,½ CPVC Female Adaptor Brass (THDXsoc),246.0
+3/4 brass fta,¾ CPVC Female Adaptor Brass (THDXsoc),314.0
+1 brass fta,1 CPVC Female Adaptor Brass (THDXsoc),634.0
+1-1/4 brass fta,1¼ CPVC Female Adaptor Brass (THDXsoc),1199.0
+1-1/2 brass fta,1½ CPVC Female Adaptor Brass (THDXsoc),1379.0
+2 brass fta,2 CPVC Female Adaptor Brass (THDXsoc),2279.0
+3/4x1/2 brass fta,¾ x ½ CPVC Reducer Coupler Brass (THDXsoc),125.0
+1x1/2 brass fta,1 x ½ CPVC Reducer Coupler Brass (THDXsoc),162.0
+1x3/4 brass fta,1 x ¾ CPVC Reducer Coupler Brass (THDXsoc),197.0
+1/2 union,½ CPVC Union soc,84.0
+3/4 union,¾ CPVC Union soc,138.0
+1 union,1 CPVC Union soc,164.0
+1-1/4 union,1¼ CPVC Union soc,267.0
+1-1/2 union,1½ CPVC Union soc,439.0
+2 union,2 CPVC Union soc,792.0
+3/4x1/2 bush,¾ x ½ CPVC Reducer Bushing SPGxSOC,21.0
+1x1/2 bush,1 x ½ CPVC Reducer Bushing SPGxSOC,40.0
+1x3/4 bush,1 x ¾ CPVC Reducer Bushing SPGxSOC,35.0
+1-1/4x1/2 bush,1¼ x ½ CPVC Reducer Bushing SPGxSOC,62.0
+1-1/4x3/4 bush,1¼ x ¾ CPVC Reducer Bushing SPGxSOC,57.0
+1-1/4x1 bush,1¼ x 1 CPVC Reducer Bushing SPGxSOC,64.0
+1-1/2x1/2 bush,1½ x ½ CPVC Reducer Bushing SPGxSOC,102.0
+1-1/2x3/4 bush,1½ x ¾ CPVC Reducer Bushing SPGxSOC,94.0
+1-1/2x1 bush,1½ x 1 CPVC Reducer Bushing SPGxSOC,88.0
+1-1/2x1-1/4 bush,1½ x 1¼ CPVC Reducer Bushing SPGxSOC,62.0
+2x1/2 bush,2 x ½ CPVC Reducer Bushing SPGxSOC,191.0
+2x3/4 buxh,2 x ¾ CPVC Reducer Bushing SPGxSOC,173.0
+2x1 bush,2 x 1 CPVC Reducer Bushing SPGxSOC,176.0
+2x1-1/4 bush,2 x 1¼ CPVC Reducer Bushing SPGxSOC,191.0
+2x1-1/2 bush,2 x 1½ CPVC Reducer Bushing SPGxSOC,160.0
+2-1/2x1 bush,2½ x 1 CPVC Bushing,647.0
+2-1/2x1-1/2 bush,2½ x 1½ CPVC Bushing,647.0
+2-1/2x2 bush,2½ x 2 CPVC Bushing,647.0
+3x1-1/2 bush,3 x 1½ CPVC Bushing,697.0
+3x2 bush,3 x 2 CPVC Bushing,670.0
+4x1-1/2 bush,4 x 1½ CPVC Bushing,856.0
+4x2 bush,4 X 2 CPVC Bushing,1136.0
+1/2 t bush,½ x ½ CPVC Transition Bushing SPGxSoc,19.0
+3/4 t bush,¾ x ¾ CPVC Transition Bushing SPGxSoc,26.0
+1 t bush,1 x 1 CPVC Transition Bushing SPGxSoc,56.0
+1-1/4 t bush,1¼ x 1¼ CPVC Transition Bushing SPGxSoc,86.0
+1-1/2 t bush,1½ x 1½ CPVC Transition Bushing SPGxSoc,140.0
+2 t bush,2 x 2 CPVC Transition Bushing SPGxSoc,249.0
+1 short t bush,1 CPVC Short Transition Bush,20.0
+1-1/4 short t bush,1¼ CPVC Short Transition Bush,29.0
+1-1/2 short t bush,1½ CPVC Short Transition Bush,56.0
+2 short t bush,2 CPVC Short Transition Bush,74.0
+1/2 tank gilly,½ CPVC Tank Adaptor (THDXTHD),88.0
+3/4 tank gilly,¾ CPVC Tank Adaptor (THDXTHD),97.0
+1 tank gilly,1 CPVC Tank Adaptor (THDXTHD),149.0
+1-1/4 tank gilly,1¼ CPVC Tank Adaptor (THDXTHD),237.0
+1-1/2 tank gilly,1½  CPVC Tank Adaptor (THDXTHD),343.0
+2 tank gilly,2 CPVC Tank Adaptor (THDXTHD),534.0
+3/4 tank gilly socket,¾ CPVC Tank Adaptor (Socket Type)  (THDXsoc),84.0
+1 tank gilly socket,1 CPVC Tank Adaptor (Socket Type)  (THDXsoc),130.0
+1-1/4 tank gilly socket,1¼ CPVC Tank Adaptor (Socket Type)  (THDXsoc),219.0
+1-1/2 tank gilly socket,1½ CPVC Tank Adaptor (Socket Type)  (THDXsoc),296.0
+2 tank gilly socket,2 CPVC Tank Adaptor (Socket Type)  (THDXsoc),510.0
+1/2 tank gilly spigot,½ CPVC Tank Adaptor (Spigot Type)  (THDXspg),86.0
+3/4 tank gilly spigot,¾ CPVC Tank Adaptor (Spigot Type)  (THDXspg),130.0
+1 tank gilly spigot,1 CPVC Tank Adaptor (Spigot Type)  (THDXspg),203.0
+1-1/4 tank gilly spigot,1¼ CPVC Tank Adaptor (Spigot Type)  (THDXspg),218.0
+1-1/2 tank gilly spigot,1½ CPVC Tank Adaptor (Spigot Type)  (THDXspg),488.0
+2 tank gilly spigot,2 CPVC Tank Adaptor (Spigot Type)  (THDXspg),514.0
+3/4 long bend,¾ CPVC Long Radius Bend,117.0
+1 long bend,1 CPVC Long Radius Bend,154.0
+1-1/4 long bend,1¼ CPVC Long Radius Bend,261.0
+1-1/2 long bend,1½ CPVC Long Radius Bend,416.0
+2 long bend,2 CPVC Long Radius Bend,781.0
+,¾  CPVC Sweep Bend (with side socket),81.0
+,1 CPVC Sweep Bend (with side socket),130.0
+,1¼ CPVC Sweep Bend (with side socket),238.0
+3/4 step over bend long,¾ CPVC Step Over Bend(L),176.0
+1 step over bend long,1 CPVC Step Over Bend(L),323.0
+1/2 step over bend,½ CPVC Step Over Bend,94.0
+3/4 step over bend,¾ CPVC Step Over Bend,130.0
+1 step over bend,1 CPVC Step Over Bend,236.0
+1-1/4 step over bend,1¼ CPVC Step Over Bend,325.0
+1-1/2 step over bend,1½ CPVC Step Over Bend,399.0
+2 step over bend,2 CPVC Step Over Bend,1004.0
+,¾ CPVC NRV-SOC,457.0
+,1 CPVC NRV-SOC,794.0
+1/2 long dummy,½ CPVC End Plug Threaded,17.0
+3/4 long dummy,¾ CPVC End Plug Threaded,23.0
+1/2 ball valve,½ CPVC Ball Valve (CTS Socket),164.0
+3/4 ball valve,¾ CPVC Ball Valve (CTS Socket),249.0
+1 ball valve,1 CPVC Ball Valve (CTS Socket),435.0
+1-1/4 ball valve,1¼ CPVC Ball Valve (CTS Socket),709.0
+1-1/2 ball valve,1½ CPVC Ball Valve (CTS Socket),1243.0
+2 ball valve,2 CPVC Ball Valve (CTS Socket),2286.0
+,½ CPVC Ball Valve Handle,24.0
+,¾ CPVC Ball Valve Handle,34.0
+,1 CPVC Ball Valve Handle,48.0
+,1¼ CPVC Ball Valve Handle,78.0
+,1½ CPVC Ball Valve Handle,91.0
+,2 CPVC Ball Valve Handle,144.0
+1/2 ball valve long handle,½ CPVC Ball Valve Long Handle(CTS Socket),140.0
+3/4 ball valve long handle,¾ CPVC Ball Valve Long Handle(CTS Socket),236.0
+1 ball valve long handle,1 CPVC Ball Valve Long Handle(CTS Socket),439.0
+1-1/4 ball valve long handle,1¼ CPVC Ball Valve Long Handle(CTS Socket),689.0
+1-1/2 ball valve long handle,1½  CPVC Ball Valve Long Handle(CTS Socket),1232.0
+2 ball valve long handle,2 CPVC Ball Valve Long Handle(CTS Socket),2307.0
+,½ CPVC Ball Long Handle,19.0
+,¾ CPVC Ball Long Handle,29.0
+,1 CPVC Ball Long Handle,44.0
+,1¼ CPVC Ball Long Handle,70.0
+,1½ CPVC Ball Long Handle,83.0
+,2 CPVC Ball Long Handle,131.0
+,½  CPVC Concealed Valve(Chrome Plated Triangle),1336.0
+3/4 concealed stop cock,¾ CPVC Concealed Valve(Chrome Plated Triangle),1472.0
+1 concealed stop cock,1 CPVC Concealed Valve(Chrome Plated Triangle),2195.0
+,½  CPVC Concealed Valve(Chrome Plated Square),1336.0
+,¾ CPVC Concealed Valve(Chrome Plated Square),1645.0
+,1 CPVC Concealed Valve(Chrome Plated Square),1926.0
+,¾ CPVC Concealed Valve swept L (Chrome Plated Square),1652.0
+,1 CPVC Concealed Valve swept L (Chrome Plated Square),1895.0
+,¾ CPVC Concealed Valve swept S (Chrome Plated Square),1393.0
+,1 CPVC Concealed Valve swept S (Chrome Plated Square),1678.0
+,½ CPVC Concealed Valve(Chrome Plated Round),1336.0
+,¾ CPVC Concealed Valve(Chrome Plated Round),1645.0
+,1 CPVC Concealed Valve(Chrome Plated Round),1926.0
+,½ CPVC Concealed Valve(Chrome Plated Flower),1336.0
+,¾ CPVC Concealed Valve(Chrome Plated Flower),1645.0
+,1 CPVC Concealed Valve(Chrome Plated Flower),1926.0
+,¾  CPVC Concealed Valve swept L (Chrome Plated Flower),1680.0
+,1 CPVC Concealed Valve swept L (Chrome Plated Flower),1945.0
+,¾ CPVC Concealed Valve swept S (Chrome Plated Flower),1418.0
+,1 CPVC Concealed Valve swept S (Chrome Plated Flower),1670.0
+,½ CPVC Concealed Valve(Wheel),801.0
+,¾ CPVC Concealed Valve(Wheel),1054.0
+,1 CPVC Concealed Valve(Wheel),2062.0
+,¾ CPVC Concealed Valve swept L (Chrome Plated Triangle),1589.0
+,1 CPVC Concealed Valve swept L (Chrome Plated Triangle),1824.0
+,¾ CPVC Concealed Valve swept S (Chrome Plated Triangle),1341.0
+,1 CPVC Concealed Valve swept S (Chrome Plated Triangle),1616.0
+,¾ CPVC Concealed Valve swept L (Chrome Plated Round),1662.0
+,1 CPVC Concealed Valve swept L (Chrome Plated Round),1915.0
+,¾ CPVC Concealed Valve swept S (Chrome Plated Round),1409.0
+,1 CPVC Concealed Valve swept S (Chrome Plated Round),1733.0
+,"¾ CPVC Fancy Handle (KNOB) with RED & 
+BLUE Plastic Button (Triangle)",410.0
+,"¾ CPVC Fancy Handle (KNOB) with RED & 
+BLUE Plastic Button (Square)",401.0
+,"¾ CPVC Fancy Handle (KNOB) with RED & 
+BLUE Plastic Button (Round)",401.0
+,½  CPVC Spindle Valve Part with Gasket,550.0
+,¾ CPVC Spindle Valve Part with Gasket,834.0
+,1 CPVC Spindle Valve Part with Gasket,1037.0
+,½ CPVC Concealed Chrome Plated Valve,1116.0
+,¾ CPVC Concealed Chrome Plated Valve,1160.0
+,1 CPVC Concealed Chrome Plated Valve,1461.0
+,¾ CPVC Spindle Valve part with Gasket (S),394.0
+,¾ CPVC Spindle Valve part with Gasket (L),612.0
+,1 CPVC Spindle Valve part with Gasket (S),528.0
+,1 CPVC Spindle Valve part with Gasket (L),638.0
+,¾ x ½ CPVC All Top Adaptor (3 In 1 Wall Mixer Adaptor),549.0
+,1 x ½  CPVC All Top Adaptor (3 In 1 Wall Mixer Adaptor),682.0
+3/4x1/2 wall mixer adaptor,¾ x ½  CPVC Top Bottom Adaptor (3 In 1 Wall Mixer Adaptor),549.0
+1x1/2 wall mixer adaptor,1 x ½ CPVC Top Bottom Adaptor (3 In 1 Wall Mixer Adaptor),682.0
+,¾ x ½ CPVC Top Side Adaptor (3 In 1 Wall Mixer Adaptor),549.0
+,1 x ½ CPVC Top Side Adaptor (3 In 1 Wall Mixer Adaptor),682.0
+,"¾ x ½ CPVC Hot Up - Cold Down Adaptor 
+(3 In 1 Wall Mixer Adaptor) ",549.0
+,"1 x ½ CPVC Hot Up - Cold Down Adaptor
+ (3 In 1 Wall Mixer Adaptor)",682.0
+,"¾ x ½ CPVC Hot Side - Cold Down Adaptor
+ (3 In 1 Wall Mixer Adaptor)",549.0
+,"1 x ½  CPVC Hot Side - Cold Down Adaptor 
+(3 In 1 Wall Mixer Adaptor)",682.0
+,½ CPVC Plastic Strap (PP),7.0
+,¾ CPVC Plastic Strap (PP),7.0
+,1 CPVC Plastic Strap (PP),10.0
+,1¼ CPVC Plastic Strap (PP),14.0
+,1½ CPVC Plastic Strap (PP),21.0
+,2 CPVC Plastic Strap (PP),26.0
+,½ CPVC Plastic Strap (Nylon),13.0
+,¾ CPVC Plastic Strap (Nylon),13.0
+,1 CPVC Plastic Strap (Nylon),14.0
+,1¼ CPVC Plastic Strap (Nylon),21.0
+,1½ CPVC Plastic Strap (Nylon),25.0
+,2 CPVC Plastic Strap (Nylon),31.0
+,½ x ½ CPVC Tee Holder,
+,¾ x ½ CPVC Tee Holder,17.0
+,½ x ½ CPVC Elbow Holder,12.0
+,¾ x ½ CPVC Elbow Holder,13.0
+,½ CPVC Metal Strap,19.0
+,¾ CPVC Metal Strap,19.0
+,1 CPVC Metal Strap,23.0
+,1¼ CPVC Metal Strap,23.0
+,1½ CPVC Metal Strap,24.0
+,2 CPVC Metal Strap,29.0
+,½ CPVC Metal Strap (SS),24.0
+,¾ CPVC Metal Strap (SS),29.0
+,1 CPVC Metal Strap (SS),36.0
+,1¼ CPVC Metal Strap (SS),41.0
+,1½ CPVC Metal Strap (SS),48.0
+,2 CPVC Metal Strap (SS),59.0
+,"1 CPVC Extension Pieces Chrome Plated medium Duty 
+(½” Threaded)",83.0
+,"1½ CPVC Extension Pieces Chrome Plated medium Duty
+ (½” Threaded) ",125.0
+,"2 CPVC Extension Pieces Chrome Plated medium Duty
+ (½” Threaded)",159.0
+,"2½ CPVC  Extension Pieces Chrome Plated medium Duty
+ (½” Threaded)",202.0
+,"3 CPVC Extension Pieces Chrome Plated medium Duty
+ (½” Threaded)",238.0
+,"4 CPVC Extension Pieces Chrome Plated medium Duty
+ (½” Threaded)",260.0
+,"5 CPVC Extension Pieces Chrome Plated medium Duty 
+(½” Threaded)",267.0
+,"6 CPVC Extension Pieces Chrome Plated medium Duty
+ (½” Threaded)",389.0
+,"1 CPVC Extension Pieces Chrome Plated Heavy Duty 
+(½” Threaded)",102.0
+,"1½ CPVC Extension Pieces Chrome Plated Heavy Duty
+ (½” Threaded) ",153.0
+,"2 CPVC Extension Pieces Chrome Plated Heavy Duty 
+(½” Threaded)",217.0
+,"2½ CPVC  Extension Pieces Chrome Plated Heavy Duty 
+(½” Threaded)",270.0
+,"3 CPVC Extension Pieces Chrome Plated Heavy Duty
+ (½” Threaded)",321.0
+,"4 CPVC Extension Pieces Chrome Plated Heavy Duty 
+(½” Threaded)",332.0
+,"5 CPVC Extension Pieces Chrome Plated Heavy Duty 
+(½” Threaded)",312.0
+,"6 CPVC Extension Pieces Chrome Plated Heavy Duty 
+(½” Threaded)",416.0
+,"50ml IPS Weld-On 500 CTS Adhesive Solution 
+(Yellow)",165.0
+,"100ml IPS Weld-On 500 CTS Adhesive Solution 
+(Yellow)",220.0
+,"200ml IPS Weld-On 500 CTS Adhesive Solution 
+(Yellow)",360.0
+,"500ml IPS Weld-On 500 CTS Adhesive Solution 
+(Yellow)",835.0
+,"1000ml IPS Weld-On 500 CTS Adhesive Solution 
+(Yellow)",1485.0
+,50ml PIPEFIX CPVC 307,170.0
+,100ml PIPEFIX CPVC 307,217.0
+,200ml PIPEFIX CPVC 307,377.0
+,500ml PIPEFIX CPVC 307,775.0
+,X100ml PIPEFIX CPVC 307,1365.0
+"6"" 10ft s/s foamcore sn2",160mm 3 M S/S (Foamcore)Selfit Pipes SN2 ,2852.0
+"6"" 20ft s/s foamcore sn2",160mm 6 M S/S (Foamcore)Selfit Pipes SN2,5602.0
+"8"" 10ft s/s foamcore sn2",200mm 3 M S/S (Foamcore)Selfit Pipes SN2,4195.0
+"8"" 20ft s/s foamcore sn2",200mm 6 M S/S (Foamcore)Selfit Pipes SN2,8238.0
+"10"" 10ft s/s foamcore sn2",250mm 3 M S/S (Foamcore)Selfit Pipes SN2 ,6518.0
+"10"" 20ft s/s foamcore sn2",250mm 6 M S/S (Foamcore)Selfit Pipes SN2,13006.0
+"12"" 10ft s/s foamcore sn2",315mm 3 M S/S (Foamcore)Selfit Pipes SN2,10242.0
+"12"" 20ft s/s foamcore sn2",315mm 6 M S/S (Foamcore)Selfit Pipes SN2,20492.0
+"4"" 10ft s/s foamcore ringfit sn4",110mm 3 M S/S (Foamcore)Ringfit Pipes SN4,1530.0
+"4"" 20ft s/s foamcore ringfit sn4",110mm 6 M S/S (Foamcore)Ringfit Pipes SN4,3294.0
+"6"" 10ft s/s foamcore ringfit sn4",160mm 3 M S/S (Foamcore)Ringfit Pipes SN4,3254.0
+"6"" 20ft s/s foamcore ringfit sn4",160mm 6 M S/S (Foamcore)Ringfit Pipes SN4,6787.0
+"4"" 10ft s/s foamcore selfit sn4",110mm 3 M S/S (Foamcore)Selfit Pipes SN4,1630.0
+"4"" 20ft s/s foamcore selfit sn4",110mm 6 M S/S (Foamcore)Selfit Pipes SN4,3255.0
+"6"" 10ft s/s foamcore selfit sn4",160mm 3 M S/S (Foamcore)Selfit Pipes SN4,3354.0
+"6"" 20ft s/s foamcore selfit sn4",160mm 6 M S/S (Foamcore)Selfit Pipes SN4,6715.0
+"8"" 10ft s/s foamcore selfit sn4",200mm 3 M S/S (Foamcore)Selfit Pipes SN4,5111.0
+"8"" 20ft s/s foamcore selfit sn4",200mm 6 M S/S (Foamcore)Selfit Pipes SN4,10213.0
+"8"" 20ft d/s foamcore selfit sn4",200mm 6 M D/S (Foamcore)Selfit Pipes SN4,10226.0
+"10"" 10ft s/s foamcore selfit sn4",250mm 3 M S/S (Foamcore)Selfit Pipes SN4,8201.0
+"10"" 20ft s/s foamcore selfit sn4",250mm 6 M S/S (Foamcore)Selfit Pipes SN4,16398.0
+"10"" 10ft d/s foamcore selfit sn4",250mm 3 M D/S (Foamcore)Selfit Pipes SN4,8256.0
+"12"" 10ft s/s foamcore selfit sn4",315mm 3 M S/S (Foamcore)Selfit Pipes SN4,12661.0
+"12"" 20ft s/s foamcore selfit sn4",315mm 6 M S/S (Foamcore)Selfit Pipes SN4,25323.0
+"4"" 10ft s/s foamcore ringfit sn8",110mm 3 M S/S (Foamcore)ringfit Pipes SN8,2056.0
+"4"" 20ft s/s foamcore ringfit sn8",110mm 6 M S/S (Foamcore)ringfit Pipes SN8,4061.0
+"6"" 10ft d/s fosmcore ringfit sn8",160mm 3 M D/S (Foamcore)ringfit Pipes SN8,
+"6"" 20ft s/s fosmcore ringfit sn8",160mm 6 M S/S (Foamcore)ringfit Pipes SN8,7932.0
+"6"" 20ft d/s fosmcore ringfit sn8",160mm 6 M D/S (Foamcore)ringfit Pipes SN8,
+"8"" 20ft s/s foamcore ringfit sn8",200mm 6 M S/S (Foamcore)ringfit Pipes SN8,
+"8"" 20ft d/s foamcore ringfit sn8",200mm 6 M D/S (Foamcore)ringfit Pipes SN8,
+"10"" 20ft s/s foamcore ringfit sn8",250mm 6 M S/S (Foamcore)ringfit Pipes SN8,
+"10"" 20ft d/s foamcore ringfit sn8",250mm 6 M D/S (Foamcore)ringfit Pipes SN8,
+"12"" 20ft s/s foamcore ringfit sn8",315mm 6 M S/S (Foamcore)ringfit Pipes SN8,
+"12"" 20ft d/s foamcore ringfit sn8",315mm 6 M D/S (Foamcore)ringfit Pipes SN8,
+"4"" 10ft s/s foamcore selfit sn8",110mm 3 M S/S (Foamcore)Selfit Pipes SN8,2008.0
+"4"" 20ft s/s foamcore selfit sn8",110mm 6 M S/S (Foamcore)Selfit Pipes SN8,3956.0
+"6"" 10ft s/s foamcore selfit sn8",160mm 3 M S/S (Foamcore)Selfit Pipes SN8,3970.0
+"6"" 20ft s/s foamcore selfit sn8",160mm 6 M S/S (Foamcore)Selfit Pipes SN8,7804.0
+"6"" 20ft d/s foamcore selfit sn8",160mm 6 M D/S (Foamcore)Selfit Pipes SN8,8083.0
+"8"" 20ft s/s foamcore selfit sn8",200mm 3 M S/S (Foamcore)Selfit Pipes SN8,6243.0
+"8"" 20ft s/s foamcore selfit sn8",200mm 6 M S/S (Foamcore)Selfit Pipes SN8,12271.0
+"10"" 10ft s/s foamcore selfit sn8",250mm 3 M S/S (Foamcore)Selfit Pipes SN8,9828.0
+"10"" 20ft s/s foamcore selfit sn8",250mm 6 M S/S (Foamcore)Selfit Pipes SN8,19258.0
+"12"" 10ft s/s foamcore selfit sn8",315mm 3 M S/S (Foamcore)Selfit Pipes SN8,15369.0
+"12"" 20ft s/s foamcore selfit sn8",315mm 6 M S/S (Foamcore)Selfit Pipes SN8,30106.0
+"3"" 10ft s/s swr pipe",75mm 10 FT S/S SWR Pipes Type A,690.0
+"3"" 10ft d/s swr pipe",75mm 10 FT D/S SWR Pipes Type A,730.0
+"3"" 2ft d/s swr pipe",75mm 2 FT D/S SWR Pipes Type A,214.0
+"3"" 4ft d/s swr pipe",75mm 4 FT D/S SWR Pipes Type A,359.0
+"3"" 6ft d/s swr pipe",75mm 6 FT D/S SWR Pipes Type A,513.0
+"4"" 10ft s/s swr pipe",110mm 10 FT S/S SWR Pipes Type A,1201.0
+"4"" 10ft d/s swr pipe",110mm 10 FT D/S SWR Pipes Type A,1318.0
+"4"" 2ft d/s swr pipe",110mm 2 FT D/S SWR Pipes Type A,367.0
+"4"" 4ft d/s swr pipe",110mm 4 FT D/S SWR Pipes Type A,622.0
+"4"" 6ft d/s swr pipe",110mm 6 FT D/S SWR Pipes Type A,894.0
+,75mm 10 FT   S/S SWR S Pipes Type-B,
+,75mm 6	 M  SPipes Type-B,
+,75mm 3 M D/S Pipes Type-B,
+,75mm 6 M D/S Pipes Type-B,
+,75mm 2 FT D/S Pipes Type-B,
+,75mm 3 FT D/S Pipes Type-B,
+,75mm 4 FT D/S Pipes Type-B,
+,75mm 6 FT D/S Pipes Type-B,
+,75mm 12 FT D/S Pipes Type-B,
+,75mm 2 FT S/S Pipes Type-B,
+,75mm 3 FT S/S Pipes Type-B,
+,75mm 4 FT S/S Pipes Type-B,
+,75mm 6 FT S/S Pipes Type-B,
+,75mm 12 FT S/S Pipes Type-B,
+,90mm 3 M S/S Pipes Type-B,
+,90mm 6 M S/S Pipes Type-B,
+,90mm 3 M D/S Pipes Type-B,
+,90mm 6 M D/S Pipes Type-B,
+,90mm 2 FT D/S Pipes Type-B,
+,90mm 3 FT D/S Pipes Type-B,
+,90mm 4 FT D/S Pipes Type-B,
+,90mm 6 FT D/S Pipes Type-B,
+,90mm 2 FT S/S Pipes Type-B,
+,90mm 3 FT S/S Pipes Type-B,
+,90mm 4 FT S/S Pipes Type-B,
+,90mm 6 FT S/S Pipes Type-B,
+,110mm 3 M S/S Pipes Type-B,
+,110mm 6 M S/S Pipes Type-B,
+,110mm 3 M D/S Pipes Type-B,
+,110mm 6 M D/S Pipes Type-B,
+,110mm 2 FT D/S Pipes Type-B,
+,110mm 3 FT D/S Pipes Type-B,
+,110mm 4 FT D/S Pipes Type-B,
+,110mm 6 FT D/S Pipes Type-B,
+,110mm 12 FT D/S Pipes Type-B,
+,110mm 2 FT S/S Pipes Type-B,
+,110mm 3 FT S/S Pipes Type-B,
+,110mm 4 FT S/S Pipes Type-B,
+,110mm 6 FT S/S Pipes Type-B,
+,110mm 12 FT S/S Pipes Type-B,
+,160mm 10FT S/S Pipes Type-B,
+,160mm 20FT S/S Pipes Type-B,
+,160mm 10FT D/S Pipes Type-B,
+,160mm 20FT D/S Pipes Type-B,
+,160mm 2 FT D/S Pipes Type-B,
+,160mm 3 FT D/S Pipes Type-B,
+,160mm 4 FT D/S Pipes Type-B,
+,160mm 6 FT D/S Pipes Type-B,
+,160mm 2 FT S/S Pipes Type-B,
+,160mm 3 FT S/S Pipes Type-B,
+,160mm 4 FT S/S Pipes Type-B,
+,160mm 6 FT S/S Pipes Type-B,
+"3"" 45 elbow",75mm SWR Bend 45°,91.0
+,90mm SWR Bend 45°,141.0
+"4"" 45 elbow",110mm SWR  Bend 45°,167.0
+"6"" 45 elbow",160mm SWR  Bend 45°,438.0
+"3"" plain bend",75mm SWR  Bend 87.5°,107.0
+,90mm SWR Plain  Bend 87.5°,188.0
+"4"" plain bend",110mm SWR Plain  Bend 87.5°,209.0
+"6"" plain bend",160mm SWR Plain  Bend 87.5°,485.0
+"3"" plug bend",75mm SWR Door Bend 87.5°,144.0
+,90mm SWR Door Bend 87.5°,200.0
+"4"" plug bend",110mm SWR Door Bend 87.5°,261.0
+"6"" plug bend",160mm SWR Door Bend 87.5°,525.0
+,75mm SWR Bend 87.5° with LH door,183.0
+,110mm SWR Bend 87.5° with LH door,329.0
+,75mm SWR Bend 87.5° with RH door,183.0
+,110mm SWR Bend 87.5° with RH door,329.0
+,110mm  SWR Plain Bend 87.5° with 50mm vent,
+,110mm SWR Door Bend 87.5° with 50mm vent,
+"3"" coupling",75mm SWR Coupler,80.5
+,90mm  SWR Coupler,125.0
+"4"" coupling",110mm  SWR Coupler,148.0
+"6"" coupling",160mm  SWR Coupler,334.0
+"3"" repair coupling",75mm SWR Repair Coupler,91.0
+"4"" repair coupling",110mm  SWR Repair Coupler,157.0
+"6"" repair coupling",160mm  SWR Repair Coupler,397.0
+,90mmx75mm SWR Reducer,95.5
+4x3 reducer,110mmx75mm SWR Reducer,125.0
+,110mmx90mm SWR Reducer,129.0
+6x3 reducer,160mmx75mm SWR Reducer,246.0
+6x4 reducer,160mmx110mm SWR Reducer,263.0
+"3"" plug tee",75mm SWR Single Tee with Door,186.0
+,90mm SWR Single Tee with Door,269.0
+"4"" plug tee",110mm SWR Single Tee with Door,334.0
+"6"" plug tee",160mm SWR Single Tee with Door,841.0
+,75mm SWR Swept Tee with Door,205.0
+,110mm SWR Swept Tee with Door,369.0
+,160mm SWR Swept Tee with Door,930.0
+"3"" 4way tee",75mm SWR Cross Tee,224.0
+"4"" 4way tee",110mm SWR Cross Tee,344.0
+"6"" 4way tee",160mm SWR Cross Tee,1017.0
+,75mm SWR Single Tee with LH Door,211.0
+,110mm SWR Single Tee with LH Door,473.0
+,160mmx75mm SWR Reducing Swept Tee,593.0
+,160mmx110mm SWR Reducing Swept Tee,637.0
+"3"" 4way plug tee",75mm SWR Cross Tee with door,344.0
+"4"" 4way plug tee",110mm SWR Cross Tee with door,443.0
+"6"" 4way plug tee",160mm SWR Cross Tee with door,1043.0
+,75mm SWR Single Tee with RH door,211.0
+,110mm SWR Single Tee with RH door,473.0
+,160mmX75mm SWR Redusing Swept Tee with door,635.0
+,160mmX110mm SWR Redusing Swept Tee with door,705.0
+,160mmX110mm SWR Reduser Cross Tee,
+,90mmx75mm SWR Reducing Tee,203.0
+4x3 tee,110mmx75mm SWR Reducing Tee,247.0
+,110mmx90mm SWR Reducing Tee,
+6x3 tee,160mmx75mm SWR Reducing Tee,571.0
+6x4 tee,160mmx110mm SWR Reducing Tee,590.0
+,75mm SWR Invert 'Y' 45°,216.0
+,110mm SWR Invert 'Y' 45°,
+,160mmX110mm SWR Reduser Cross Tee with Door,
+,90mmx75mm SWR Reducing Tee with door,241.0
+4x3 plug tee,110mmx75mm SWR Reducing Tee with door,313.0
+,110mmx90mm SWR Reducing Tee with door,
+6x3 plug tee,160mmx75mm SWR Reducing Tee with door,616.0
+6x4 plug tee,160mmx110mm SWR Reducing Tee with door,633.0
+"3"" plain y",75mm SWR Single 'Y',178.0
+,90mm SWR Single 'Y',262.0
+"4"" plain y",110mm SWR Single 'Y',343.0
+"6"" plain y",160mm SWR Single 'Y',948.0
+"3"" plain tee",75mm SWR Single Tee,156.0
+,90mm SWR Single Tee,232.0
+"4"" plain tee",110mm SWR Single Tee,276.0
+"6"" plain tee",160mm SWR Single Tee,692.0
+,75mm SWR Swept Tee,177.0
+,110mm SWR Swept Tee,333.0
+,160mm SWR Swept Tee,890.0
+"3"" plug y",75mm SWR Single 'Y' with Door,224.0
+,90mm SWR Single 'Y' with Door,337.0
+"4"" plug y",110mm SWR Single 'Y' with Door,439.0
+"6"" plug y",160mm SWR Single 'Y' with Door,1148.0
+4x3 plain y,110mmx75mm SWR Reducer 'Y',276.0
+6x3 plain y,160mmx75mm SWR Reducer 'Y',659.0
+6x4 plain y,160mmx110mm SWR Reducer 'Y',833.0
+,160mmx75mm SWR Reducer Double 'Y',239.0
+,160mmx110mm SWR Reducer Double 'Y',465.0
+4x3 plug y,110mmx75mm SWR Reducer 'Y' with door,344.0
+6x3 plug y,160mmx75mm SWR Reducer 'Y' with door,817.0
+6x4 plug y,160mmx110mm SWR Reducer 'Y' with door,1044.0
+,160mmx75mm SWR Reducer Double 'Y' with Door,
+,160mmx110mm SWR Reducer Double 'Y' with Door,
+,75mm SWR Double 'Y',239.0
+,110mm SWR Double 'Y',569.0
+,160mm SWR Double 'Y',1318.0
+"3"" inspection",75mm SWR Cleansing Pipe,144.0
+"4"" inspection",110mm SWR Cleansing Pipe,287.0
+"6"" inspection",160mm SWR Cleansing Pipe,553.0
+,75mm SWR Double 'Y' with Door,332.0
+,110mm SWR Double 'Y' with Door,569.0
+,160mm SWR Double 'Y' with Door,1318.0
+,110mm SWR Sovent,
+,75mm SWR Rubber Ring,
+,90mm SWR Rubber Ring,
+,110mm SWR Rubber Ring,
+,160mm SWR Rubber Ring,
+100grm Lubricant,100grm SWR Pipe Joint Lubricant,30.0
+250grm Lubricant,250grm SWR Pipe Joint Lubricant,90.0
+"1-1/2"" swr clamp","1½"" SWR Pipe Clip",18.0
+"2"" swr clamp","2"" SWR Pipe Clip",21.0
+"2-1/2"" swr clamp","2½"" SWR Pipe Clip",25.0
+"3"" swr clamp","3"" SWR Pipe Clip",27.0
+"3-1/2"" swr clamp","3½"" SWR Pipe Clip",34.0
+"4"" swr clamp","4"" SWR Pipe Clip",36.0
+"6"" swr clamp","6"" SWR Pipe Clip",76.0
+"2"" ruby nails 1kg","2"" ruby Nails 1kg",100.0
+lubricant 100g,Lubricant 100g,30.0
+,30cm Toolkit Box,
+1/2 upvc pipe,"½"" UPVC Pipe Schedule-40",
+3/4 upvc pipe,"¾"" UPVC Pipe Schedule-40",
+1 upvc pipe,"1"" UPVC Pipe Schedule-40",
+1-1/4 upvc pipe,1¼  UPVC Pipe Schedule-40,
+1-1/2 upvc pipe,"1½"" UPVC Pipe Schedule-40",
+2 upvc pipe,"2"" UPVC Pipe Schedule-40",
+1/2 upvc pipe 80,"½"" UPVC Pipe Schedule-80",
+3/4 upvc pipe 80,"¾"" UPVC Pipe Schedule-80",
+1 upvc pipe 80,"1"" UPVC Pipe Schedule-80",
+1-1/4 upvc pipe 80,1¼  UPVC Pipe Schedule-80,
+1-1/2 upvc pipe 80,"1½"" UPVC Pipe Schedule-80",
+2 upvc pipe 80,"2"" UPVC Pipe Schedule-80",
+1/2 upvc coupling,"½"" UPVC Coupler",
+3/4 upvc coupling,"¾"" UPVC Coupler",
+1 upvc coupling,"1"" UPVC Coupler",
+1-1/4 upvc coupling,1¼  UPVC Coupler,
+1-1/2 upvc coupling,"1½"" UPVC Coupler",
+2 upvc coupling,"2"" UPVC Coupler",
+2-1/2 upvc coupling,"2½"" UPVC coupler",
+3 upvc coupling,"3"" UPVC coupler",
+4 upvc coupling,"4"" UPVC coupler",
+6 upvc coupling,"6"" UPVC coupler",
+1/2 upvc elbow,"½"" UPVC Elbow 90° ",
+3/4 upvc elbow,"¾"" UPVC Elbow 90° ",
+1 upvc elbow,"1"" UPVC Elbow 90° ",
+1-1/4 upvc elbow,1¼  UPVC Elbow 90° ,
+1-1/2 upvc elbow,"1½"" UPVC Elbow 90° ",
+2 upvc elbow,"2"" UPVC Elbow 90° ",
+3/4x1/2 upvc coupling,"3/4 x 1/2"" UPVC Reducer Coupler",
+1x1-2 upvc coupling,"1 x 1/2"" UPVC Reducer Coupler",
+1x3/4 upvc coupling,"1 x 3/4"" UPVC Reducer Coupler",
+1-1/4x1/2 upvc coupling,"1¼ x 1/2"" UPVC Reducer Coupler",
+1-1/4x3/4 upvc coupling,"1¼ x 3/4"" UPVC Reducer Coupler",
+1-1/4x1 upvc coupling,"1¼ x 1"" UPVC Reducer Coupler",
+1-1/2x1/2 upvc coupling,"1½ x 1/2"" UPVC Reducer Coupler",
+1-1/2x3/4 upvc coupling,"1½ x 3/4""UPVC Reducer Coupler",
+1-1/2x1 upvc coupling,"1½ x 1"" UPVC Reducer Coupler",
+1-1/2x1-1/4 upvc coupling,"1½ x1¼"" UPVC Reducer Coupler",
+2x1/2 upvc coupling,"2 x 1/2"" UPVC Reducer Coupler",
+2x3/4 upvc coupling,"2 x 3/4"" UPVC Reducer Coupler",
+2x1 upvc coupling,"2 x 1"" UPVC Reducer Coupler",
+1/2 upvc endcap,"½"" UPVC End Cap",
+1 upvc endcap,"¾"" UPVC End Cap",
+1 upvc endcap,"1"" UPVC End Cap",
+1-1/4 upvc endcap,1¼  UPVC End Cap,
+1-1/2 upvc endcap,"1½"" UPVC End Cap",
+2 upvc endcap,"2"" UPVC End Cap",
+2-1/2 upvc endcap,"2½"" UPVC End Cap",
+3 upvc endcap,"3"" UPVC End Cap",
+4 upvc endcap,"4"" UPVC End Cap",
+1/2 upvc bend,"½"" UPVC Elbow 45° ",
+3/4 upvc bend,"¾"" UPVC Elbow 45°",
+1 upvc bend,"1"" UPVC Elbow 45°",
+1-1/4 upvc bend,1¼  UPVC Elbow 45°,
+1-1/2 upvc bend,"1½"" UPVC Elbow 45°",
+2 upvc bend,"2"" UPVC Elbow 45°",
+1/2 upvc tee,½ UPVC Equal Tee,
+3/4 upvc tee,¾ UPVC Equal Tee,
+1 upvc tee,1 UPVC Equal Tee,
+1-1/4 upvc tee,1¼ UPVC Equal Tee,
+1-1/2 upvc tee,1½ UPVC Equal Tee,
+2 upvc tee,2 UPVC Equal Tee,
+1/2 upvc mta,½ UPVC Male Thread Adaptor,
+3/4 upvc mta,¾ UPVC Male Thread Adaptor,
+1 upvc mta,1 UPVC Male Thread Adaptor,
+1-1/4 upvc mta,1¼ UPVC Male Thread Adaptor,
+1-1/2 upvc mta,1½ UPVC Male Thread Adaptor,
+2 upvc mta,2 UPVC Male Thread Adaptor,
+1/2 upvc fta,½ UPVC Female Thread Adaptor,
+3/4 upvc fta,¾ UPVC Female Thread Adaptor,
+1 upvc fta,1 UPVC Female Thread Adaptor,
+1-1/4 upvc fta,1¼ UPVC Female Thread Adaptor,
+1-1/2 upvc fta,1½ UPVC Female Thread Adaptor,
+2 upvc fta,2 UPVC Female Thread Adaptor,
+1/2 upvc brass elbow,½ x ½ UPVC Brass Elbow,
+3/4x1/2 upvc brass elbow,¾ x ½ UPVC Brass Elbow,
+3/4 brass elbow,¾ x ¾ UPVC Brass Elbow,
+1x1/2 upvc brass elbow,1 x ½ UPVC Brass Elbow,
+1x3/4 upvc brass elbow,1 x ¾ UPVC Brass Elbow,
+1 upvc brass elbow,1 x 1 UPVC Brass Elbow,
+1/2 upvc brass tee,½ x ½ UPVC Brass Tee,
+3/4x1/2 upvc brass tee,¾ x ½ UPVC Brass Tee,
+3/4 upvc brass tee,¾ x ¾ UPVC Brass Tee,
+1x1/2 upvc brass tee,1 x ½ UPVC Brass Tee,
+1x3/4 upvc brass tee,1 x ¾ UPVC Brass Tee,
+1 upvc brass tee,1 x 1 UPVC Brass Tee,
+1/2 upvc tank gilly,½ UPVC Tank Connector,
+3/4 upvc tank gilly,¾ UPVC Tank Connector,
+1 upvc tank gilly,1 UPVC Tank Connector,
+1-1/4 upvc tank gilly,1¼ UPVC Tank Connector,
+1-1/2 upvc tank gilly,1½ UPVC Tank Connector,
+2 upvc tank gilly,2 UPVC Tank Connector,
+1/2 upvc tank pipe gilly,½ UPVC Tank Connector (Pipe),
+3/4 upvc tank pipe gilly,¾ UPVC Tank Connector (Pipe),
+1 upvc tank pipe gilly,1 UPVC Tank Connector (Pipe),
+1-1/4 upvc tank pipe gilly,1¼ UPVC Tank Connector (Pipe),
+1-1/2 upvc tank pipe gilly,1½ UPVC Tank Connector (Pipe),
+2 upvc tank pipe gilly,2 UPVC Tank Connector (Pipe),
+1/2 upvc tank socket gilly,½ UPVC Tank Connector with Socket,
+3/4 upvc tank socket gilly,¾ UPVC Tank Connector with Socket,
+1 upvc tank socket gilly,1 UPVC Tank Connector with Socket,
+1/2 upvc union,½ UPVC Union,
+3/4 upvc union,¾ UPVC Union,
+1 upvc union,1 UPVC Union,
+1-1/4 upvc union,1¼ UPVC Union,
+1-1/2 upvc union,1½ UPVC Union,
+2 upvc union,2 UPVC Union,
+1/2 upvc brass mta,½ x ½ UPVC Brass male thread adaptor,
+3/4x1/2 upvc brass mta,¾ x ½ UPVC Brass male thread adaptor,
+3/4 upvc brass mta,¾ x ¾ UPVC Brass male thread adaptor,
+1x1/2 upvc brass mta,1 x ½ UPVC Brass male thread adaptor,
+1x3/4 upvc brass mta,1 x ¾ UPVC Brass male thread adaptor,
+1 upvc brass mta,1 x 1 UPVC Brass male thread adaptor,
+1-1/4 upvc brass mta,1¼ x 1¼ UPVC Brass male thread adaptor,
+1-1/2 upvc brass mta,1½ x 1½ UPVC Brass male thread adaptor,
+2 upvc brass mta, 2 x 2 UPVC Brass male thread adaptor,
+1/2 upvc ball valve,½ UPVC Ball Valve,
+3/4 upvc ball valve,¾ UPVC Ball Valve,
+1 upvc ball valve,1 UPVC Ball Valve,
+1-1/4 upvc ball valve,1¼ UPVC Ball Valve,
+1-1/2 upvc ball valve,1½ UPVC Ball Valve,
+2 upvc ball valve,2 UPVC Ball Valve,
+1/2 upvc 4way tee,½ UPVC Cross Tee,
+3/4 upvc 4way tee,¾ UPVC Cross Tee,
+1 upvc 4way tee,1 UPVC Cross Tee,
+1-1/4 upvc 4way tee,1¼  UPVC Cross Tee,
+1-1/2 upvc 4way tee,1½  UPVC Cross Tee,
+1/2 upvc concealed valve,½ UPVC Concealed Valve,
+3/4 upvc concealed valve,¾ UPVC Concealed Valve,
+,½ UPVC Concealed Valve Quarter turn,
+,¾ UPVC Concealed Valve Quarter turn,
+1/2 upvc brass fta,½ x ½ UPVC Brass Female thread adaptor,
+3/4x1/2 upvc brass fta,¾ x ½ UPVC Brass Female thread adaptor,
+3/4 upvc brass fta,¾ x ¾ UPVC Brass Female thread adaptor,
+1x1/2 upvc brass fta,1 x ½ UPVC Brass Female thread adaptor,
+1x3/4 upvc brass fta,1 x ¾ UPVC Brass Female thread adaptor,
+1 upvc brass fta,1 x 1 UPVC Brass Female thread adaptor,
+1-1/4 upvc brass fta,1¼ x 1¼  UPVC Brass Female thread adaptor,
+1-1/2 upvc brass fta,1½ x 1½ UPVC Brass Female thread adaptor,
+2 upvc brass fta, 2 x 2 UPVC Brass Female thread adaptor,
+1/2 upvc step over bend,½ UPVC Pipe step over bend,
+3/4 upvc step over bend,¾  UPVC Pipe step over bend,
+1 upvc step over bend,1  UPVC Pipe step over bend,
+1/2 upvc pipe elbow,½ UPVC Pipe bend 90°,
+3/4 upvc pipe elbow,¾ UPVC Pipe bend 90°,
+1 upvc pipe elbow,1 UPVC Pipe bend 90°,
+1/2 upvc end plug,½ UPVC End Plug,
+3/4x1/2 upvc elbow,¾ x ½ UPVC Reducer Elbow (P),
+1x1/2 upvc elbow,1 x ½ UPVC Reducer Elbow (P),
+1x3/4 upvc elbow,1 x ¾ UPVC Reducer Elbow (P),
+1/2 upvc tread elbow,½ UPVC Thread Elbow,
+1/2 upvc thread tee,½ UPVC Thread Tee,
+25ml upvc solvent,25ml UPVC Solvent cement (tube),
+,59ml UPVC Solvent cement (tin),
+118ml upvc solvent,118ml UPVC Solvent cement (tin),
+,237ml UPVC Solvent cement (tin),
+,473ml UPVC Solvent cement (tin),
+3/4x1/2 upvc bush,¾ x ½ UPVC Reducer Bush,
+1x1/2 upvc bush,1 x ½ UPVC Reducer Bush,
+1x3/4 upvc bush,1 x ¾ UPVC Reducer Bush,
+1-1/4x1/2 upvc bush,1¼ x ½ UPVC Reducer Bush,
+1-1/4x3/4 upvc bush,1¼ x ¾ UPVC Reducer Bush,
+1-1/4x1 upvc bush,1¼ x 1 UPVC Reducer Bush,
+1-1/2x1/2 upvc bush,1½ x ½ UPVC Reducer Bush,
+1-1/2x3/4 upvc bush,1½ x ¾ UPVC Reducer Bush,
+1-1/2x1 upvc bush,1½ x 1 UPVC Reducer Bush,
+1-1/2x1-1/4 upvc bush,1½ x 1¼ UPVC Reducer Bush,
+2x1/2 upvc bush,2 x ½ UPVC Reducer Bush,
+2x3/4 upvc bush,2 x ¾ UPVC Reducer Bush,
+2x1 upvc bush,2 x 1 UPVC Reducer Bush,
+2x1-1/4 upvc bush,2 x 1¼ UPVC Reducer Bush,
+1x1-1/2 upvc bush,2 x 1½ UPVC Reducer Bush,
+3/4x1/2 upvc tee,¾ x ½ UPVC Reducer Tee,
+1x1/2 upvc tee,1 x ½ UPVC Reducer Tee,
+1x3/4 upvc tee,1 x ¾ UPVC Reducer Tee,
+1-1/4x1/2 upvc tee,1¼ x ½ UPVC Reducer Tee,
+1-1/4x3/4 upvc tee,1¼ x ¾ UPVC Reducer Tee,
+1-1/4x1 upvc tee,1¼ x 1 UPVC Reducer Tee,
+1-1/2x1/2 upvc tee,1½ x ½ UPVC Reducer Tee,
+1-1/2x3/4 upvc tee,1½ x ¾ UPVC Reducer Tee,
+1-1/2x1 upvc tee,1½ x 1 UPVC Reducer Tee,
+1-1/2x1-1/4 upvc tee,1½ x 1¼ UPVC Reducer Tee,
+2x1/2 upvc tee,2 x ½ UPVC Reducer Tee,
+2x3/4 upvc tee,2 x ¾ UPVC Reducer Tee,
+2x1 upvc tee,2 x 1 UPVC Reducer Tee,
+2x1-1/4 upvc tee,2 x 1¼ UPVC Reducer Tee,
+2x1-1/2 upvc tee,2 x 1½ UPVC Reducer Tee,
+2-1/2x2 upvc tee,2½ x 2 UPVC Reducer Tee,
+3x2 upvc tee,3 x 2 UPVC Reducer Tee,
+3x2-1/2 upvc tee,3 x 2½ UPVC Reducer Tee,
+4x2 upvc tee,4 x 2 UPVC Reducer Tee,
+4x2-1/2 upvc tee,4 x 2½ UPVC Reducer Tee,
+4x3 upvc tee,4 x 3 UPVC Reducer Tee,
+2-1/2 upvc elbow,"2½"" UPVC Elbow 90° ",
+3 upvc elbow,"3"" UPVC Elbow 90° ",
+4 upvc elbow,"4"" UPVC Elbow 90° ",
+2-1/2 upvc tee,2½ UPVC Equal Tee,
+3 upvc tee,3 UPVC Equal Tee,
+4 upvc tee,4 UPVC Equal Tee,
+2-1/2 upvc mta,2½ UPVC Male Thread Adaptor,
+3 upvc mta,3 UPVC Male Thread Adaptor,
+4 upvc mta,4 UPVC Male Thread Adaptor,
+2-1/2 upvc fta,2½ UPVC Female Thread Adaptor,
+3 upvc fta,3 UPVC Female Thread Adaptor,
+4 upvc fta,4 UPVC Female Thread Adaptor,
+t tape,teflone tape,20.0
+,"1"" Concealed Stop cock(Brass)",
+"2"" nail box","2"" Nails Box",280.0
+"2-1/2"" nail box","2½"" Nails Box",280.0
+1-1/2 1ft pvc pipe,1½ 1ft Pvc Pipe ,28.0
+1-1/4 1ft pvc pipe,1¼ 1ft Pvc Pipe ,24.0
+1-1/2 10ft pvc pipe,1½ 10Ft Pvc Pipe ,280.0
+1-1/4 10ft pvc pipe,1¼ 10Ft Pvc Pipe ,240.0
+1-1/2 pvc elbow,1½ Pvc 90° Elbow,34.0
+1-1/2 pvc tee,1½ Pvc Tee,40.0
+1-1/2 pvc endcap,1½ Pvc End Cap,24.0
+1-1/4 pvc elbow,1¼ Pvc 90° Elbow,30.0
+1-1/4 pvc tee,1¼ Pvc Tee,36.0
+1-1/4 pvc endcap,1¼ Pvc End Cap,20.0
+1-1/2 pvc bend,1½ Pvc 45° Elbow,48.0
+1-1/4 pvc bend,1¼ Pvc 45° Elbow,40.0
+1/2 pvc long dummy,"1/2"" Pvc Long Dummy",5.0
+,75mm 10 FT S/S PVC Pipes Type A,
+,75mm 10 FT D/S PVC Pipes Type A,
+,75mm 2 FT D/S PVC Pipes Type A,
+,75mm 4 FT D/S PVC Pipes Type A,
+,75mm 6 FT D/S PVC Pipes Type A,
+,110mm 10 FT S/S PVC Pipes Type A,
+,110mm 10 FT D/S PVC Pipes Type A,
+,110mm 2 FT D/S PVC Pipes Type A,
+,110mm 4 FT D/S PVC Pipes Type A,
+,110mm 6 FT D/S PVC Pipes Type A,
+"3"" p trap",75mmx75mm Swr P Trap,246.0
+"4"" p trap",110mmX110mm Swr P Trap,456.0
+4x3 multi nahani,110mmx75mm Swr Multi Floor Trap ,231.0
+"3"" nahani trap",110mmx75mm Swr Nahani Trap,163.0
+"4"" nahani trap",110mmx110mm Swr Nahani Trap,205.0
+"2"" vent cowl",50mm Swr Vent Cowl,18.0
+"3"" vent cowl",75mm Swr Vent Cowl,34.0
+"4"" vent cowl",110mm Swr Vent Cowl,57.0
+"4"" square gully trap",110mm Swr Square Gully Trap,774.0
+pvc solution 100ml,Pvc Solvent Solution 100ml,60.0
+pvc solution 250ml,Pvc Solvent Solution 250ml,120.0
+pvc solution 500ml,Pvc Solvent Solution 500ml,230.0
+3/4 c clamp,"¾"" China Clamp",10.0
+1 c clamp,"1"" China Clamp",12.0
+1-1/4 c clamp,"1¼"" China Clamp",15.0
+1-1/2 c clamp,"1½"" China Clamp",18.0
+2 c clamp,"2"" China Clamp",20.0
+1/2 u clamp,"½"" U clamps",14.0
+3/4 u clamp,"¾"" U clamps",16.0
+1 u clamp,"1"" U clamps",18.0
+1-1/4 u clamp,"1¼"" U clamps",20.0
+1-1/2 u clamp,"1½"" U clamps",24.0
+2 u clamp,"2"" U clamps",26.0
+2-1/2 u clamp,"2½"" U clamps",28.0
+3 u clamp,"3"" U clamps",30.0
+4 u clamp,"4"" U clamps",38.0
+6 u clamp,"6"" U clamps",50.0
+4 base clamp,"4"" base clamp",68.0
+6 base clamp,"6"" base clamp",78.0
+8 base clamp,"8"" base clamp",86.0
+9 base clamp,"9"" base clamp",96.0
+10 base clamp,"10"" base clamp",108.0
+12 base clamp,"12"" base clamp",112.0
+15 base clamp,"15"" base clamp",132.0
+18 base clamp,"18"" base clamp",160.0
+24 base clamp,"24"" base clamp",184.0
+118ml solvent,118ml Solvent Solution,180.0
+200ml solvent,200ml Cpvc Solvent Solution,360.0
+"1"" gi clamp","1"" GI Clamp",10.0
+"3"" gi clamp","3"" GI Clamp",15.0
+"4"" gi clamp","4"" GI Clamp",25.0
+500grm lubricant,500grm SWR Pipe Joint Lubricant,150.0
+axablade,Axablade,10.0
+wall cutting blade,Wall Cutting Blade,150.0
+axablade double,Axablade Double,10.0
+"4"" swr endcap","4"" SWR EndCap",90.0
+white cement 1kg,White Cement 1kg,40.0
+1-1/2 pvc long bend,"1-1/2"" Pvc Long Bend",40.0
+rod cutting blade,Rod Cutting Blade,20.0
+15x15 rcc cover,"15""x15"" RCC Cover",290.0
+"2-1/2"" nail kg","2-1/2"" Nail 1kg",100.0
+"2"" nail kg","2"" Nail 1kg",100.0
+hole jali,Hole Jali S.S,60.0
+plain jali,Plain Jali S.S,60.0
+18x18 rcc manhole cover heavy,18x18 RCC Manhole Cover (heavy),350.0
+16x16 rcc cover,"16""x16"" RCC Cover",290.0
+waste pipe,Waste Pipe,80.0
+1/2x2 gi nipple,"1/2""x2"" GI Nipple",25.0
+1/2x3 gi nipple,"1/2""x3"" GI Nipple",40.0
+100ml pvc solution,100ml Pvc Solution,60.0

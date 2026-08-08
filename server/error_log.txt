@@ -1,0 +1,29 @@
+
+Invalid `prisma.stock.upsert()` invocation in
+C:\Users\mmnaw\OneDrive\Desktop\inventory mgnt\server\test_upsert.js:10:28
+
+   7 const mat = await prisma.material.findFirst();
+   8 const loc = await prisma.location.findFirst();
+   9 
+→ 10 await prisma.stock.upsert({
+       where: {
+         materialId_locationId: {
+           materialId: "MAT-1785912607086-7552",
+           locationId: "LOC-SHOP"
+         }
+       },
+       update: {
+         quantity: {
+           increment: 5
+         }
+       },
+       create: {
+         materialId: "MAT-1785912607086-7552",
+         locationId: "LOC-SHOP",
+         quantity: 5,
+         subLocation: null
+         ~~~~~~~~~~~
+       }
+     })
+
+Unknown argument `subLocation`. Available options are marked with ?.

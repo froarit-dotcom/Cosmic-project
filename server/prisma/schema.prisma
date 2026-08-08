@@ -1,0 +1,292 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String      @id @default(uuid())
+  username       String      @unique
+  passwordHash   String      @map("password_hash")
+  role           Role        @default(EMPLOYEE)
+  fullName       String      @map("full_name")
+  phone          String?
+  permissions    String      @default("[]")
+  createdAt      DateTime    @default(now()) @map("created_at")
+  updatedAt      DateTime    @updatedAt @map("updated_at")
+
+  createdQuotations Quotation[]
+  createdInvoices   Invoice[]
+  transferLogs      StockTransferLog[]
+
+  @@map("users")
+}
+
+enum Role {
+  ADMIN
+  EMPLOYEE
+}
+
+model Company {
+  companyId   String     @id @map("company_id")
+  name        String
+  contactInfo String?    @map("contact_info")
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  
+  materials   Material[]
+
+  @@map("companies")
+}
+
+model Category {
+  categoryId  String     @id @map("category_id")
+  name        String
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  materials   Material[]
+
+  @@map("categories")
+}
+
+model Material {
+  materialId    String     @id @map("material_id")
+  name          String
+  categoryId    String     @map("category_id")
+  companyId     String     @map("company_id")
+  sizeSpec      String     @map("size_spec")
+  unit          String
+  purchasePrice Float?     @map("purchase_price")
+  sellingPrice  Float?     @map("selling_price")
+  gstPercentage Float      @map("gst_percentage")
+  localAlias    String?    @map("local_alias")
+  reorderLevel  Int?       @map("reorder_level")
+  status        Status     @default(ACTIVE)
+
+  category      Category   @relation(fields: [categoryId], references: [categoryId])
+  company       Company    @relation(fields: [companyId], references: [companyId])
+  
+  stockAtLocations Stock[]
+  stockTransfers   StockTransfer[]
+
+  quotationItems QuotationItem[]
+  invoiceItems   InvoiceItem[]
+
+  stockStockLogs  StockTransferLog[]
+
+  @@map("materials")
+}
+
+enum Status {
+  ACTIVE
+  INACTIVE
+}
+
+model Location {
+  locationId   String   @id @map("location_id")
+  name         String
+  type         LocType
+  
+  stocks       Stock[]
+  transfersFrom StockTransfer[] @relation("FromLocation")
+  transfersTo   StockTransfer[] @relation("ToLocation")
+  salesPersons  SalesPerson[]
+  subLocations  SubLocation[]
+  
+  transferLogsFrom StockTransferLog[] @relation("TransferFromLocation")
+  transferLogsTo   StockTransferLog[] @relation("TransferToLocation")
+
+  @@map("locations")
+}
+
+model SubLocation {
+  subLocationId String   @id @default(uuid()) @map("sub_location_id")
+  name          String
+  locationId    String   @map("location_id")
+  parentId      String?  @map("parent_id")
+
+  location      Location @relation(fields: [locationId], references: [locationId], onDelete: Cascade)
+  parent        SubLocation? @relation("SubToSub", fields: [parentId], references: [subLocationId], onDelete: Cascade)
+  children      SubLocation[] @relation("SubToSub")
+  
+  stocks            Stock[]
+  transferLogsFrom  StockTransferLog[] @relation("LogFromSub")
+  transferLogsTo    StockTransferLog[] @relation("LogToSub")
+
+  // Ensure unique names within the exact same parent node
+  @@unique([locationId, parentId, name])
+  @@map("sub_locations")
+}
+
+model StockTransferLog {
+  id              String   @id @default(uuid())
+  materialId      String   @map("material_id")
+  fromLocationId  String   @map("from_location_id")
+  fromSubLocId    String?  @map("from_sub_location_id")
+  toLocationId    String   @map("to_location_id")
+  toSubLocId      String?  @map("to_sub_location_id")
+  quantity        Int
+  transferDate    DateTime @default(now()) @map("transfer_date")
+  transferredBy   String?  @map("transferred_by")
+
+  material        Material @relation(fields: [materialId], references: [materialId], onDelete: Cascade)
+  fromLocation    Location @relation("TransferFromLocation", fields: [fromLocationId], references: [locationId], onDelete: Cascade)
+  fromSub         SubLocation? @relation("LogFromSub", fields: [fromSubLocId], references: [subLocationId], onDelete: Cascade)
+  toLocation      Location @relation("TransferToLocation", fields: [toLocationId], references: [locationId], onDelete: Cascade)
+  toSub           SubLocation? @relation("LogToSub", fields: [toSubLocId], references: [subLocationId], onDelete: Cascade)
+  user            User?    @relation(fields: [transferredBy], references: [id])
+
+  @@index([materialId])
+  @@index([fromLocationId])
+  @@index([toLocationId])
+  @@map("stock_transfer_logs")
+}
+
+enum LocType {
+  GODOWN
+  SHOP
+}
+
+model Stock {
+  id            String   @id @default(uuid())
+  materialId    String   @map("material_id")
+  locationId    String   @map("location_id")
+  subLocationId String?  @map("sub_location_id")
+  quantity      Int      @default(0)
+
+  material      Material @relation(fields: [materialId], references: [materialId])
+  location      Location @relation(fields: [locationId], references: [locationId])
+  subLocation   SubLocation? @relation(fields: [subLocationId], references: [subLocationId])
+
+  @@map("stock")
+}
+
+model StockTransfer {
+  transferId    String   @id @map("transfer_id")
+  materialId    String   @map("material_id")
+  quantity      Int
+  fromLocationId String  @map("from_location_id")
+  toLocationId   String  @map("to_location_id")
+  transferDate  DateTime @default(now()) @map("transfer_date")
+  remarks       String?
+
+  material      Material @relation(fields: [materialId], references: [materialId])
+  fromLocation  Location @relation("FromLocation", fields: [fromLocationId], references: [locationId])
+  toLocation    Location @relation("ToLocation", fields: [toLocationId], references: [locationId])
+
+  @@map("stock_transfers")
+}
+
+model Customer {
+  customerId   String     @id @map("customer_id")
+  name         String
+  phone        String
+  address      String?
+
+  quotations   Quotation[]
+  invoices     Invoice[]
+
+  @@map("customers")
+}
+
+model SalesPerson {
+  salesPersonId String    @id @map("sales_person_id")
+  name          String
+  phone         String?
+  salary        Float     @default(0)
+  locationId    String?   @map("location_id")
+  linkedUserId  String?   @map("linked_user_id")
+
+  location      Location? @relation(fields: [locationId], references: [locationId])
+  invoices      Invoice[]
+
+  @@map("sales_persons")
+}
+
+model Quotation {
+  quotationId   String   @id @map("quotation_id")
+  customerId    String   @map("customer_id")
+  quotationDate DateTime @default(now()) @map("quotation_date")
+  totalAmount   Float    @map("total_amount")
+  createdBy     String   @map("created_by")
+
+  customer      Customer @relation(fields: [customerId], references: [customerId])
+  user          User     @relation(fields: [createdBy], references: [id])
+  
+  items         QuotationItem[]
+  invoices      Invoice[]
+
+  @@map("quotations")
+}
+
+model QuotationItem {
+  id           String    @id @default(uuid())
+  quotationId  String    @map("quotation_id")
+  materialId   String    @map("material_id")
+  quantity     Int
+  unitPrice    Float     @map("unit_price")
+  discount     Float     @default(0)
+  lineTotal    Float     @map("line_total")
+
+  quotation    Quotation @relation(fields: [quotationId], references: [quotationId])
+  material     Material  @relation(fields: [materialId], references: [materialId])
+
+  @@map("quotation_items")
+}
+
+model Invoice {
+  invoiceId      String    @id @map("invoice_id")
+  quotationId    String?   @map("quotation_id")
+  customerId     String    @map("customer_id")
+  salesPersonId  String?   @map("sales_person_id")
+  invoiceDate    DateTime  @default(now()) @map("invoice_date")
+  subtotal       Float
+  totalSgst      Float     @map("total_sgst")
+  totalCgst      Float     @map("total_cgst")
+  deduction      Float     @default(0)
+  grandTotal     Float     @map("grand_total")
+  bonusAmount    Float     @default(0) @map("bonus_amount")
+  status         InvStatus @default(ACTIVE)
+  createdBy      String    @map("created_by")
+
+  quotation      Quotation? @relation(fields: [quotationId], references: [quotationId])
+  customer       Customer   @relation(fields: [customerId], references: [customerId])
+  salesPerson    SalesPerson? @relation(fields: [salesPersonId], references: [salesPersonId])
+  user           User       @relation(fields: [createdBy], references: [id])
+
+  items          InvoiceItem[]
+
+  @@map("invoices")
+}
+
+enum InvStatus {
+  ACTIVE
+  VOID
+}
+
+model InvoiceItem {
+  id           String    @id @default(uuid())
+  invoiceId    String    @map("invoice_id")
+  materialId   String    @map("material_id")
+  unitPrice    Float     @map("unit_price")
+  costPrice    Float     @map("cost_price") // Snapshot for reporting
+  quantity     Int
+  amount       Float
+  discount     Float     @default(0)
+  gstPercentage Float    @map("gst_percentage")
+  sgstAmount   Float     @map("sgst_amount")
+  cgstAmount   Float     @map("cgst_amount")
+  lineTotal    Float     @map("line_total")
+
+  invoice      Invoice   @relation(fields: [invoiceId], references: [invoiceId])
+  material     Material  @relation(fields: [materialId], references: [materialId])
+
+  @@map("invoice_items")
+}

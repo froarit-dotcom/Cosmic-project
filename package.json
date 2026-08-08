@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "cd server && npx prisma generate && cd .. && concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.4",
+    "axios": "^1.19.0",
+    "concurrently": "^10.0.4",
+    "lucide-react": "^1.28.0",
+    "postcss": "^8.5.25",
+    "react-router-dom": "^7.18.2",
+    "tailwindcss": "^4.3.3"
+  }
+}
